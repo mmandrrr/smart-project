@@ -1,0 +1,278 @@
+@import "variables";
+
+@media(min-width:1200px) {
+    .col-xl-1 {
+        flex: 0 0 8.33334%;
+        max-width: 8.33334%;
+    }
+    
+    .col-xl-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    
+    .col-xl-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    
+    .col-xl-4 {
+        flex: 0 0 33.33334%;
+        max-width: 33.33334%;
+    }
+    
+    .col-xl-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .col-xl-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    
+    .col-xl-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+
+    .col-xl-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .container {
+        max-width: 1140px;
+    }    
+
+    .header {
+        .logo {
+            text-align: left;
+        }
+
+        .intro-text {
+            width: 720px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+
+
+    .user-form form {
+        display: block;
+        padding: 25px 35px 20px 35px;
+        background-color: #fff;
+        box-shadow: 0 0 20px #6b6b6b;
+
+        h2 {
+            text-align: center;
+            font-family: $openSans;
+            font-weight: 700;
+            margin-bottom: 45px;
+        }
+
+        input {
+            width: 290px;
+            height: 33px;
+            margin-bottom: 30px;
+            border: none;
+            border-bottom: 1px solid #000;
+
+            &:active, &:hover, &:focus {
+                outline: 0;
+                outline-offset: 0;
+            }
+        }
+
+        textarea {
+            width: 290px;
+            height: 85px;
+            margin-bottom: 30px;
+            border: none;
+            border-bottom: 1px solid #000;
+
+            &:active, &:hover, &:focus {
+                outline: 0;
+                outline-offset: 0;
+            }
+        }
+
+        button {
+            width: 240px;
+            height: 55px;
+            background-color: $orange;
+            text-align: center;
+            font-family: $openSans;
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            border-radius: 50px;
+            position: relative;
+            left: 50%;
+            margin-left: -120px;
+            cursor: pointer;
+        }
+
+        img {
+            margin-left: 15px;
+        }
+
+        &::placeholder {
+            padding-bottom: 10px;
+        }
+    }
+
+    .working-process-interactive {
+        .interactive-item {
+            margin-bottom: 180px;
+        }
+    }
+
+    .services-items {
+        flex-direction: column;
+    }
+    .services-we-provide{
+        .service-item {
+            margin-bottom: 7px;
+
+            &:last-child {
+                margin-bottom: 180px;
+            }
+        }
+    }
+
+    .team {
+        .team-member {
+            margin-bottom: 180px;
+        }
+    }
+
+    .clients-said {
+        display: block;
+
+        .slick-dots li{
+            width: 20px;
+            color: $orange;
+        } 
+    }
+
+    .partners {
+        .partners-logo  {
+             img {
+                margin-bottom: 0;
+             }
+
+             flex-direction: row;
+             justify-content: space-around;
+        }
+    }
+
+    .footer {
+        .links {
+            justify-content: space-around;
+        }
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(161, 161, 161, 0.8);
+        display: none;
+
+        .modal-block {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-left: -180px;
+            margin-top: -202px;
+    
+            form {
+                display: block;
+                padding: 25px 35px 20px 35px;
+                background-color: #fff;
+                box-shadow: 0 0 20px #6b6b6b;
+        
+                h2 {
+                    text-align: center;
+                    font-family: $openSans;
+                    font-weight: 700;
+                    margin-bottom: 45px;
+                }
+        
+                input {
+                    width: 290px;
+                    height: 33px;
+                    margin-bottom: 30px;
+                    border: none;
+                    border-bottom: 1px solid #000;
+        
+                    &:active, &:hover, &:focus {
+                        outline: 0;
+                        outline-offset: 0;
+                    }
+                }
+        
+                textarea {
+                    width: 290px;
+                    height: 85px;
+                    margin-bottom: 30px;
+                    border: none;
+                    border-bottom: 1px solid #000;
+        
+                    &:active, &:hover, &:focus {
+                        outline: 0;
+                        outline-offset: 0;
+                    }
+                }
+        
+                button {
+                    width: 240px;
+                    height: 55px;
+                    background-color: $orange;
+                    text-align: center;
+                    font-family: $openSans;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #fff;
+                    border-radius: 50px;
+                    position: relative;
+                    left: 50%;
+                    margin-left: -120px;
+                    cursor: pointer;
+                }
+    
+                .cls-btn {
+                    width: 50px;
+                    border-radius: 20%;
+                    height: 25px;
+                    line-height: 25px;
+                    font-size: 10px;
+                    position: relative;
+                    top: 0;
+                    margin-left: 120px;
+                    margin-bottom: 40px;
+                }
+        
+                img {
+                    margin-left: 15px;
+                }
+        
+                &::placeholder {
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .show-modal {
+        display: block;
+    }
+
+    .hide-modal {
+        display: none;
+    }
+}

@@ -1,0 +1,67 @@
+@media(max-width:376px) {
+    .col-xs-1 {
+        flex: 0 0 8.33334%;
+        max-width: 8.33334%;
+    }
+        
+    .col-xs-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+        
+    .col-xs-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+        
+    .col-xs-4 {
+       flex: 0 0 33.33334%;
+       max-width: 33.33334%;
+    }
+        
+    .col-xs-6 {
+       flex: 0 0 50%;
+       max-width: 50%;
+    }
+        
+    .col-xs-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+        
+    .col-xs-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .portfolio {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .team .team-member > img {
+        width: 100%;
+    }
+
+    .team .team-member .hidden-info {
+        width: 100%;
+    }
+
+    .services-we-provide{
+        .watch img{
+            width: 100%;
+        }
+    }
+
+    .services-we-provide .services-items {
+        flex-wrap: wrap;    
+    }
+
+    .clients-said {
+        display: none;
+    }
+
+    .partners .partners-logo {
+        padding: 80px 10px 95px 10px;
+    }
+}
