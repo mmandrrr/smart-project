@@ -34,6 +34,29 @@
         max-width: 100%;
     }
 
+    .header {
+        nav {
+            overflow-x: scroll;
+
+            ul {
+                display: flex;
+                justify-content: start;
+
+                li {
+                    margin-left: 20px;
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+
+                    &:last-child {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+
     .portfolio {
         padding-left: 10px;
         padding-right: 10px;
